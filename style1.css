@@ -1,0 +1,105 @@
+#outer{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+#header {
+
+    min-height: 50px;
+    color: white;
+    background-color: rgb(42, 79, 157);
+
+    font-size: 14px;
+  
+  }
+
+  #header a,.link {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+
+  }
+
+.link{
+ text-align: center;
+}
+  #menu {
+    min-height: 50px;
+    background-color: rgb(72, 72, 127);
+
+  }
+
+
+.col-sm-3{
+margin-top: 5%;
+}
+
+.col-sm-4{
+  margin-top: 5%;
+}
+
+#foot{ color: whitesmoke;
+    font-weight: 400;
+    font-size: 16px;
+    min-height: 100px;
+    text-align: left;
+    background-color: rgb(70, 105, 181);
+}
+  #footer {
+    min-height: 50px;
+    background-color: rgb(42, 79, 157);
+    color: whitesmoke;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+
+  }
+  .col-sm img{
+    
+    box-shadow: 3px 30px 40px rgb(208, 207, 207) ;
+  }
+ 
+.col-md-6 {
+   
+  
+    position: relative;
+    animation: mymove 3s;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes mymove {
+    from {top: 200px;}
+    to {top: 0px; }
+  }
+
+  p{
+    font-size: 18px;
+  }
+
+  .enquiry {
+    transform: rotate(270deg);
+    background: rgb(44, 111, 218);
+    left: 10px;
+    position: fixed;
+    color: rgb(249, 249, 250);
+    height: 35px;
+    padding: 5px;
+    width: 90px;
+    font-size: 16px;
+    top: 500px;
+    border-radius: 5px;
+}
+
+.chat {
+     transform: rotate(270deg); 
+    background: rgb(7, 109, 19);
+    right: 50px;
+    position: bottom-fixed;
+    color: rgb(249, 249, 250);
+    height: 60px;
+    width: 120px;
+    font-size: 16px;
+    top: 250px;
+    border-radius: 5px;
+    text-align: center;
+}
